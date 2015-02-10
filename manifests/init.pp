@@ -22,11 +22,19 @@ class project_config(
 
   $config_dir = Vcsrepo['/etc/project-config']
 
+  # Note project_config_ref is expected to be provided by facter
+  # if you want to use it.
+  if ($::project_config_ref != undef) {
+    $revision = $::project_config_ref
+  } else {
+    $revision = 'master'
+  }
+
   if (!defined($config_dir)) {
     vcsrepo { '/etc/project-config':
       ensure   => latest,
       provider => git,
-      revision => 'master',
+      revision => $revision,
       source   => $url,
     }
   }
