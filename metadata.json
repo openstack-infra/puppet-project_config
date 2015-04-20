@@ -1,5 +1,5 @@
 {
-  "name": "openstackci-project_config",
+  "name": "openstackinfra-project_config",
   "version": "0.0.1",
   "author": "OpenStack CI",
   "summary": "Puppet module for Project_config",
@@ -8,6 +8,6 @@
   "project_page": "http://ci.openstack.org/",
   "issues_url": "https://storyboard.openstack.org/#!/project/803",
   "dependencies": [
-    {"name":"openstackci/vcsrepo","version_requirement":">= 0.0.8"}
+    {"name":"openstackinfra/vcsrepo","version_requirement":">= 0.0.8"}
   ]
 }
