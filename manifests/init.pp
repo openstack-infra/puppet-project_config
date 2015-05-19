@@ -17,17 +17,15 @@
 
 class project_config(
   $url = '',
+  $revision = 'master',
   $base = '',
 ) {
 
   $config_dir = Vcsrepo['/etc/project-config']
 
-  # Note project_config_ref is expected to be provided by facter
-  # if you want to use it.
+  # Note project_config_ref can be provided by facter if you want to use it.
   if ($::project_config_ref != undef) {
     $revision = $::project_config_ref
-  } else {
-    $revision = 'master'
   }
 
   if (!defined($config_dir)) {
