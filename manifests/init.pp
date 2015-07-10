@@ -45,6 +45,7 @@ class project_config(
   $gerrit_notify_impact_file      = "/etc/project-config/${base}gerrit/notify_impact.yaml"
   $jeepyb_project_file            = "/etc/project-config/${base}gerrit/projects.yaml"
   $jenkins_job_builder_config_dir = "/etc/project-config/${base}jenkins/jobs"
+  $jenkins_data_dir               = "/etc/project-config/${base}jenkins/data"
   $jenkins_scripts_dir            = "/etc/project-config/${base}jenkins/scripts"
   $nodepool_scripts_dir           = "/etc/project-config/${base}nodepool/scripts"
   $nodepool_elements_dir          = "/etc/project-config/${base}nodepool/elements"
