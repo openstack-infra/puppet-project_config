@@ -16,8 +16,8 @@
 #
 
 class project_config(
-  $url = '',
-  $base = '',
+  $url,
+  $base = undef,
 ) {
 
   $config_dir = Vcsrepo['/etc/project-config']
