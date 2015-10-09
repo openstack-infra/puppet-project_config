@@ -44,6 +44,7 @@ class project_config(
   $gerritbot_channel_file         = "/etc/project-config/${base}gerritbot/channels.yaml"
   $gerrit_acls_dir                = "/etc/project-config/${base}gerrit/acls"
   $gerrit_notify_impact_file      = "/etc/project-config/${base}gerrit/notify_impact.yaml"
+  $grafana_dashboards_dir         = "/etc/project-config/${base}grafana",
   $jeepyb_project_file            = "/etc/project-config/${base}gerrit/projects.yaml"
   $jenkins_job_builder_config_dir = "/etc/project-config/${base}jenkins/jobs"
   $jenkins_data_dir               = "/etc/project-config/${base}jenkins/data"
