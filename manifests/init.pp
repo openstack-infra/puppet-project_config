@@ -49,6 +49,7 @@ class project_config(
   $jenkins_job_builder_config_dir = "/etc/project-config/${base}jenkins/jobs"
   $jenkins_data_dir               = "/etc/project-config/${base}jenkins/data"
   $jenkins_scripts_dir            = "/etc/project-config/${base}jenkins/scripts"
+  $nodepool_base_dir              = "/etc/project-config/${base}nodepool"
   $nodepool_scripts_dir           = "/etc/project-config/${base}nodepool/scripts"
   $nodepool_elements_dir          = "/etc/project-config/${base}nodepool/elements"
   $zuul_layout_dir                = "/etc/project-config/${base}zuul"
