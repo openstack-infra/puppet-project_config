@@ -51,5 +51,6 @@ class project_config(
   $jenkins_scripts_dir            = "/etc/project-config/${base}jenkins/scripts"
   $nodepool_scripts_dir           = "/etc/project-config/${base}nodepool/scripts"
   $nodepool_elements_dir          = "/etc/project-config/${base}nodepool/elements"
+  $nodepool_config_file           = "/etc/project-config/${base}nodepool/nodepool.yaml"
   $zuul_layout_dir                = "/etc/project-config/${base}zuul"
 }
