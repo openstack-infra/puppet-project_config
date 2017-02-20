@@ -52,5 +52,6 @@ class project_config(
   $nodepool_scripts_dir           = "/etc/project-config/${base}nodepool/scripts"
   $nodepool_elements_dir          = "/etc/project-config/${base}nodepool/elements"
   $nodepool_config_file           = "/etc/project-config/${base}nodepool/nodepool.yaml"
+  $nodepool_config_file_zuulv3    = "/etc/project-config/${base}nodepool/nodepoolv3.yaml"
   $zuul_layout_dir                = "/etc/project-config/${base}zuul"
 }
