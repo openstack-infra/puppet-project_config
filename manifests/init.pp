@@ -52,7 +52,7 @@ class project_config(
   $nodepool_scripts_dir           = "/etc/project-config/${base}nodepool/scripts"
   $nodepool_elements_dir          = "/etc/project-config/${base}nodepool/elements"
   $nodepool_config_file           = "/etc/project-config/${base}nodepool/nodepool.yaml"
-  $nodepool_config_file_zuulv3    = "/etc/project-config/${base}nodepool/${::hostname}.yaml"
+  $nodepool_config_file_zuulv3    = "/etc/project-config/${base}nodepool/${::fqdn}.yaml"
   $zuul_layout_dir                = "/etc/project-config/${base}zuul"
   $zuul_site_variables_yaml       = "/etc/project-config/${base}zuul/site-variables.yaml"
 }
