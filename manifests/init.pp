@@ -24,7 +24,7 @@ class project_config(
   $config_dir = Vcsrepo['/etc/project-config']
 
   # Note project_config_ref can be provided by facter if you want to use it.
-  if ($::project_config_ref != undef) {
+  if (defined('$::project_config_ref') and $::project_config_ref != undef) {
     $_revision = $::project_config_ref
   }
   else {
