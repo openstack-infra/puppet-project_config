@@ -1,0 +1,9 @@
+Code-Review+2: Colleen Murphy <colleen@gazlene.net>
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Workflow+1: Monty Taylor <mordred@inaugust.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Wed, 06 Mar 2019 19:34:51 +0000
+Reviewed-on: https://review.openstack.org/641152
+Project: openstack-infra/puppet-project_config
+Branch: refs/heads/master
