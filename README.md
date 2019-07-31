@@ -1,5 +1,3 @@
-# OpenStack Project_config Module
+# This repo has moved to OpenDev
 
-## Overview
-
-Pulls down project_config repository and defines useful variables.
+It can now be found at [https://opendev.org/opendev/puppet-project_config](https://opendev.org/opendev/puppet-project_config)
